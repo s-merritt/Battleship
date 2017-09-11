@@ -1,5 +1,5 @@
 /**
- * Created by smerr on 5/11/2017.
+ * This is a simple class used to run the game
  */
 public class Test {
     public static void main(String[] args) {
