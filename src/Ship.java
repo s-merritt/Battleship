@@ -1,9 +1,10 @@
 
 /**
- * Write a description of class Ship here.
+ * This class holds the values of a ship on the Grid.
+ * Specifically it keeps track of the length, coordinate
+ * of initial spot, and direction of the ship
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Scott Merritt
  */
 public class Ship
 {
