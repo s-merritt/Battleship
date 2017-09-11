@@ -1,9 +1,10 @@
 
 /**
- * Write a description of class Player here.
+ * The Player class is a construct for the two players of the game:
+ * the computer and the user
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Scott Merritt
+ * 
  */
 public class Player {
     //Lengths of all ships
@@ -40,12 +41,18 @@ public class Player {
     {
         return opponentGrid;
     }
-
+    /**
+     * This method adds to the number of hits the player has scored
+     *
+     */
     public void hitCounter()
     {
         numberOfHits++;
     }
-
+    /**
+     * This method returns the number of hits a players has scored
+     *
+     */
     public int getNumberOfHits()
     {
         return numberOfHits;
