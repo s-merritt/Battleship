@@ -27,48 +27,39 @@ public class Location {
         status = UNGUESSED;
     }
 
-    public boolean checkHit()
-    {
+    public boolean checkHit(){
         return status == HIT;
     }
 
-    public boolean checkMiss()
-    {
+    public boolean checkMiss(){
         return status == MISSED;
     }
 
-    public boolean isUnguessed()
-    {
+    public boolean isUnguessed(){
         return status == UNGUESSED;
     }
 
-    public void markHit()
-    {
+    public void markHit(){
         status = HIT;
     }
 
-    public void markMiss()
-    {
+    public void markMiss(){
         status = MISSED;
     }
 
-    public boolean hasShip()
-    {
+    public boolean hasShip(){
         return occupied;
     }
 
-    public void setShip(boolean val)
-    {
+    public void setShip(boolean val){
         occupied = val;
     }
 
-    public void setStatus(int status)
-    {
+    public void setStatus(int status){
         this.status = status;
     }
 
-    public int getStatus()
-    {
+    public int getStatus(){
         return status;
     }
 }
