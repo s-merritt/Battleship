@@ -1,8 +1,5 @@
 /**
  * Class made for obtaining random values for Battleship game
- *
- * @author Scott Merritt
- * @version 5/11/2017
  */
 import java.util.*;
 
