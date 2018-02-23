@@ -117,6 +117,8 @@ public class Strategy {
      * in order to add them to the List of spots to check. The only spots
      * needed are above, below, left, and right since ships cannot be diagonal
      *
+     * @param row - row of initial hit
+     * @param col - col of initial hit
      */
     private void lookAround(int row, int col){
         if(row + 1 <= 10)
@@ -153,7 +155,8 @@ public class Strategy {
     }
 
     /**
-     * Setter method for pivot
+     * Setter method for 
+     *
      * @param spot new pivot
      */
     private void setPivot(int[] spot){this.pivot = spot;}
