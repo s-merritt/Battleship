@@ -31,52 +31,42 @@ public class Grid {
                 grid[i][j] = new Location(); //initialize each Location in grid
     }
 
-    public void markHit(int row, int col)
-    {
+    public void markHit(int row, int col){
         (grid[row - 1][col - 1]).markHit();
     }
 
-    public void markMiss(int row, int col)
-    {
+    public void markMiss(int row, int col){
         (grid[row - 1][col - 1]).markMiss();
     }
 
-    public void setStatus(int row, int col, int status)
-    {
+    public void setStatus(int row, int col, int status){
         (grid[row - 1][col - 1]).setStatus(status);
     }
 
-    public int getStatus(int row, int col)
-    {
+    public int getStatus(int row, int col){
         return (grid[row - 1][col - 1]).getStatus();
     }
 
-    public boolean alreadyGuessed(int row, int col)
-    {
+    public boolean alreadyGuessed(int row, int col){
         return !(grid[row - 1][col - 1]).isUnguessed();
     }
 
-    public void setShip(int row, int col, boolean val)
-    {
+    public void setShip(int row, int col, boolean val){
         (grid[row - 1][col - 1]).setShip(val);
     }
 
-    public boolean hasShip(int row, int col)
-    {
+    public boolean hasShip(int row, int col){
         return (grid[row - 1][col - 1]).hasShip();
     }
 
-    public Location get(int row, int col)
-    {
+    public Location get(int row, int col){
         return grid[row - 1][col - 1];
     }
 
-    public int numRows()
-    {
+    public int numRows(){
         return NUM_ROWS;
     }
-    public int numCols()
-    {
+    public int numCols(){
         return NUM_COLS;
     }
     /**
