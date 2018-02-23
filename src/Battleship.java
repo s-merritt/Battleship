@@ -17,7 +17,6 @@ import java.util.Scanner;
  * The game ends when either player guesses all of the locations of their
  * opponent's ships ("HITS")
  *
- *
  * @author Scott Merritt
  * @version updated January 26, 2017
  */
